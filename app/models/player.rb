@@ -1,3 +1,3 @@
 class Player < ApplicationRecord
-  has_many :attacks
+  has_many :player_attacks
 end
