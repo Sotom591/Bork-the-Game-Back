@@ -28,6 +28,8 @@ ActiveRecord::Schema.define(version: 2019_01_15_011519) do
     t.string "name"
     t.integer "lvl"
     t.integer "hp"
+    t.integer "x"
+    t.integer "y"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

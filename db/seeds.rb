@@ -8,10 +8,10 @@
 
 player = Player.create(name: "Bork", lvl: 1, hp: 10)
 
-toast = Monster.create(name: "Toasty", lvl: 1, hp: 10)
-noodles = Monster.create(name: "Sriracha Chicken", lvl: 1, hp: 10)
-burger = Monster.create(name: "Burgrr", lvl: 1, hp: 10)
-chef = Monster.create(name: "Gordo", lvl: 5, hp: 15)
+toast = Monster.create(name: "Toasty", lvl: 1, hp: 10, x: 88, y: 88)
+noodles = Monster.create(name: "Sriracha Chicken", lvl: 1, hp: 10, x: 88, y: 88)
+burger = Monster.create(name: "Burgrr", lvl: 1, hp: 10, x: 88, y: 88)
+chef = Monster.create(name: "Gordo", lvl: 5, hp: 15, x: 88, y: 88)
 
 bite = PlayerAttack.create(name: "bite", dmg: 2, player_id: 1)
 lick = PlayerAttack.create(name: "lick", dmg: 0, effect: "no effect. but hey, sure tastes good!", player_id: 1)
