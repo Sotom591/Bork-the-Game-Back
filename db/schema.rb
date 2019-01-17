@@ -30,6 +30,8 @@ ActiveRecord::Schema.define(version: 2019_01_15_011519) do
     t.integer "hp"
     t.integer "x"
     t.integer "y"
+    t.string "img"
+    t.integer "speed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

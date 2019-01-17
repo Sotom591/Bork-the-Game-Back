@@ -6,6 +6,8 @@ class CreateMonsters < ActiveRecord::Migration[5.2]
       t.integer :hp
       t.integer :x
       t.integer :y
+      t.string :img
+      t.integer :speed
 
       t.timestamps
     end

@@ -10,6 +10,6 @@ class MonstersController < ApplicationController
 
   private
     def monster_params
-      params.require(:monster).permit(:name, :lvl, :hp, :x, :y)
+      params.require(:monster).permit(:name, :lvl, :hp, :x, :y, :speed, :img)
     end
 end

@@ -8,10 +8,10 @@
 
 player = Player.create(name: "Bork", lvl: 1, hp: 10)
 
-toast = Monster.create(name: "Toasty", lvl: 1, hp: 10, x: 88, y: 88)
-noodles = Monster.create(name: "Sriracha Chicken", lvl: 1, hp: 10, x: 88, y: 88)
-burger = Monster.create(name: "Burgrr", lvl: 1, hp: 10, x: 88, y: 88)
-chef = Monster.create(name: "Gordo", lvl: 5, hp: 15, x: 88, y: 88)
+toast = Monster.create(name: "Toasty", lvl: 1, hp: 10, x: 88, y: 88, speed: 1500,  img: "https://i.imgur.com/UwbgjzM.png?1")
+noodles = Monster.create(name: "Sriracha Chicken", lvl: 1, hp: 10, x: 132, y: 132, speed: 2000, img: "https://i.imgur.com/KV3mKIn.png")
+burger = Monster.create(name: "Burgrr", lvl: 1, hp: 10, x: 132, y: 176, speed: 2500, img: "https://i.imgur.com/eqfPUiI.png")
+# chef = Monster.create(name: "Gordo", lvl: 5, hp: 15, x: 88, y: 88, img:)
 
 bite = PlayerAttack.create(name: "bite", dmg: 2, player_id: 1)
 lick = PlayerAttack.create(name: "lick", dmg: 0, effect: "no effect. but hey, sure tastes good!", player_id: 1)
@@ -26,4 +26,4 @@ slap = MonsterAttack.create(name: "slap", dmg: 1, effect: "you feel a bit wet no
 
 burn = MonsterAttack.create(name: "burn", dmg: 1, effect: "mmm, that's too hot!", monster_id: 3)
 
-smack = MonsterAttack.create(name: "smack", dmg: 1, effect: "reminds you of puppyhood.", monster_id: 4)
+# smack = MonsterAttack.create(name: "smack", dmg: 1, effect: "reminds you of puppyhood.", monster_id: 4)
