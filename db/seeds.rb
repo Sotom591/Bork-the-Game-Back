@@ -8,9 +8,9 @@
 
 player = Player.create(name: "Bork", lvl: 1, hp: 10)
 
-toast = Monster.create(name: "Toasty", lvl: 1, hp: 10, x: 88, y: 88, speed: 1500,  img: "https://i.imgur.com/UwbgjzM.png?1")
-noodles = Monster.create(name: "Sriracha Chicken", lvl: 1, hp: 10, x: 132, y: 132, speed: 2000, img: "https://i.imgur.com/KV3mKIn.png")
-burger = Monster.create(name: "Burgrr", lvl: 1, hp: 10, x: 132, y: 176, speed: 2500, img: "https://i.imgur.com/eqfPUiI.png")
+toast = Monster.create(name: "Crusty", lvl: 1, hp: 10, x: 704, y: 264, speed: 1500,  img: "https://i.imgur.com/UwbgjzM.png?1")
+noodles = Monster.create(name: "Noodlenoggin", lvl: 1, hp: 10, x: 572, y: 396, speed: 2000, img: "https://i.imgur.com/KV3mKIn.png")
+burger = Monster.create(name: "Burgrr", lvl: 1, hp: 10, x: 748, y: 88, speed: 2500, img: "https://i.imgur.com/eqfPUiI.png")
 # chef = Monster.create(name: "Gordo", lvl: 5, hp: 15, x: 88, y: 88, img:)
 
 bite = PlayerAttack.create(name: "bite", dmg: 2, player_id: 1)
