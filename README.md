@@ -1,24 +1,4 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h1> Bork </h1>
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Back-End of an 8 bit styled RPG with turn-based fighting. In this game you play as Bork, a neighborhood doggo that saves the day after a restaurant becomes cursed. 
